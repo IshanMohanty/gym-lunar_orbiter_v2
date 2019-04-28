@@ -345,7 +345,7 @@ class LunarOrbiterV2(gym.Env, EzPickle):
 
         reward = 0                                                                   # define reward...
         shaping = \
-            - 10000 * np.sqrt(state[0] * state[0] + state[1] * state[1]) \
+            - 100 * np.sqrt(state[0] * state[0] + state[1] * state[1]) \
             - 100 * np.sqrt(state[2] * state[2] + state[3] * state[3]) \
             - 100 * abs(state[4]) + 10 * state[6] + 10 * state[7]                   # ten points for legs contact, the idea is if you
                                                                                     # lose contact again after landing, you get negative reward
