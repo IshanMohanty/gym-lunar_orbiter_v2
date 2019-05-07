@@ -1,2 +1,2 @@
-The Policy Gradient is in the Policy_Gradient.py
-Run run_policy_gradient to train the model
+The Policy Gradient Algorithm is in the Policy_Gradient.py
+Run run_lunarorbiter_v2.py to train the model
